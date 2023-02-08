@@ -1,0 +1,61 @@
+.vertical-text {
+    width: 8%;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: #0f7afc;
+}
+  
+.time-less {
+    width: 5%;
+    color: white;
+    font-weight: bold;
+    background-color: #0f7afc;
+}
+
+.audi-less {
+    width: 5%;
+    font-weight: bold;
+}
+.section {
+   width: 400px;
+}
+.table-1 {
+    width: 60%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+th, td {
+    border: 1.5px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    color: white;
+    background-color: #0f7afc;
+}
+span {
+    font-size: 13px;
+}
+
+.para-td {
+    height: 5px;
+}
+
+.toogle-css {
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background: #0f7afc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.toogle-css:hover {
+    background-color: #0b39b9;
+}

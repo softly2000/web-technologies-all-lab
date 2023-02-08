@@ -1,0 +1,30 @@
+h1 {
+    background-color: rgb(5, 13, 85);
+    padding: 10px;
+    width: 390px;
+    color: white;
+}
+
+table {
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.rule-1 {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+#rule-2 {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+.rule-3, .rule-4, .rule-5 {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px; 
+}

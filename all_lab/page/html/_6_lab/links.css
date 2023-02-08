@@ -1,0 +1,20 @@
+body {
+    background-color: #ffffff;
+}
+
+section {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+a{
+    color: #022441;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    border-bottom-color: #022441;
+    font-size: 25px;
+}
+a:hover {
+    color: rgb(255, 0, 0);
+}

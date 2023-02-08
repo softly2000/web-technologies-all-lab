@@ -1,0 +1,77 @@
+h1 {
+    background-color: rgb(5, 13, 85);
+    padding: 10px;
+    width: 300px;
+    color: white;
+}
+
+.canvas {
+    margin-top: 150px;
+    margin-left: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+  
+.row1, .row2, .row3, .row4 {
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+  
+.red {
+    background-color: #F44336;
+    width: 15%;
+    height: 100%;
+}
+  
+.yellow {
+    background-color: #FFEB3B;
+    width: 15%;
+    height: 100%;
+}
+  
+.blue {
+    background-color: #2196F3;
+    width: 20%;
+    height: 100%;
+}
+  
+.green {
+    background-color: #4CAF50;
+    width: 25%;
+    height: 100%;
+}
+  
+.orange {
+    background-color: #FF9800;
+    width: 25%;
+    height: 100%;
+}
+  
+.purple {
+    background-color: #9C27B0;
+    width: 15%;
+    height: 100%;
+}
+.purple-1 {
+    background-color: #070707;
+    width: 10%;
+    height: 100%;
+}
+.orange-1 {
+    background-color: #070707;
+    width: 50%;
+    height: 50%;
+}
+.blue-1 {
+    background-color: #66ff00;
+    width: 5%;
+    height: 300%;
+  }
+.red-1 {
+    background-color: #F44336;
+    width:20%;
+    height: 100%;
+}

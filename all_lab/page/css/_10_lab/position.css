@@ -1,0 +1,56 @@
+h1 {
+    background-color: rgb(5, 13, 85);
+    padding: 10px;
+    width: 360px;
+    color: white;
+}
+
+p {
+    width: 200px;
+    margin: 8px;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+#container { 
+    position: relative; 
+    height: 600px; 
+    width: 600px; 
+    margin: 50px auto; 
+    border: 1px solid black; 
+} 
+#box1 { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    height: 200px; 
+    width: 200px; 
+    background-color: rgb(18, 18, 204); 
+} 
+#box2 { 
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    height: 200px; 
+    width: 200px; 
+    background-color: rgb(185, 16, 16); 
+} 
+#box3 { 
+    position: relative; 
+    top: 50px; 
+    left: 50px; 
+    height: 200px; 
+    width: 200px; 
+    background-color: rgb(17, 206, 17); 
+} 
+#box4 { 
+    position: sticky; 
+    top: 0px; 
+    right: 0px; 
+    height: 100px; 
+    width: 100px; 
+    background-color: rgb(216, 216, 33); 
+} 
+
+

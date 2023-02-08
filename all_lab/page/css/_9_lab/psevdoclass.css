@@ -1,0 +1,64 @@
+h1 {
+  background-color: rgb(5, 13, 85);
+  padding: 10px;
+  width: 360px;
+  color: white;
+}
+.container {
+  padding: 50px;
+  margin-left: 200px;
+  background-color: rgb(236, 235, 243);
+  border-radius: 5px;
+  height: 700px;
+  width: 400px;
+}
+
+/* hover */
+.div-pse:hover {
+    background-color: rgb(255, 255, 255);
+}
+  
+  /* active */
+button:active {
+    background-color: blue;
+}
+  
+  /* focus */
+input:focus {
+    border: 21px solid rgb(0, 153, 255);
+}
+  
+  /* first-child */
+p:first-child {
+    font-weight: bold;
+}
+  
+  /* last-child */
+p:last-child {
+    text-decoration: underline;
+}
+  
+  /* nth-last-child(n) */
+p:nth-last-child(2) {
+    font-style: italic;
+}
+  
+  /* nth-child(n) */
+p:nth-child(3) {
+    color: red;
+}
+  
+  /* visited */
+a:visited {
+    color: purple;
+}
+  
+  /* link */
+a:link {
+    color: blue;
+}
+  
+  /* lang */
+:lang(fr) {
+    font-family: sans-serif;
+}

@@ -1,0 +1,86 @@
+/*Подключения шрифтов*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    background: linear-gradient(to right, 
+    rgb(255, 253, 253), 
+    rgb(216, 213, 213));
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #050505;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+  
+a:hover {
+    color: red;
+}
+
+.marquee_style {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #020202;
+}
+
+.marquee-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+.marquee-title.expanded {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 40%;
+    height: auto;
+    margin: 20px auto;
+    background-color: #fafcff;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.section-title {
+    color: #020202;
+}
+
+.section-title i {
+    font-size: 20px;
+    color: #0f7afc; 
+    margin-right: 5px;
+}
+
+.toogle-css {
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background: #0f7afc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.toogle-css:hover {
+    background-color: #0b39b9;
+}

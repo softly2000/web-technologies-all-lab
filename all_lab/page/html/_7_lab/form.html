@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Game of Thrones</title>
+  <link rel="stylesheet" href="form.css">
+  <script src="form.js" defer="defer"></script>
+</head>
+<body>
+  <form action="#">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Почта:</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="fav_char">Любимый персонаж:</label>
+    <select id="fav_char" name="fav_char">
+      <option value="Jon Snow">Джон Сноу</option>
+      <option value="Daenerys Targaryen">Дейнерис Таргариен</option>
+      <option value="Tyrion Lannister">Тирион Ланнистер</option>
+      <option value="Arya Stark">Арья Старк</option>
+    </select>
+
+    <label for="fav_season">Любимый сезон</label>
+    <select id="fav_season" name="fav_season">
+      <option value="Season 1">Сезон 1</option>
+      <option value="Season 2">Сезон 2</option>
+      <option value="Season 3">Сезон 3</option>
+      <option value="Season 4">Сезон 4</option>
+      <option value="Season 5">Сезон 5</option>
+      <option value="Season 6">Сезон 6</option>
+      <option value="Season 7">Сезон 7</option>
+      <option value="Season 8">Сезон 8</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+  <!--Отключить CSS-->
+  <button class="toogle-css" id="toggleCSS">Отключить CSS</button>
+</body>
+</html>

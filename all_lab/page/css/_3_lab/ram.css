@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+.ele {
+    width: 600px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.solid {
+    border: thick solid #4caf50;
+    border-style: solid;
+    padding: 10px;
+}
+.dotted {
+    border: thick solid #4caf50;
+    border-style: dotted;
+    padding: 10px;
+}
+
+.dashed {
+    border: thick solid #4caf50;
+    border-style: dashed;
+    padding: 10px;
+}
+.double {
+    border: thick solid #4caf50;
+    border-style: double;
+    padding: 10px;
+}
+
+.groove {
+    border: thick solid #4caf50;
+    border-style: groove;
+    padding: 10px;
+}
+.ridge {
+    border: thick solid #4caf50;
+    border-style: ridge;
+    padding: 10px;
+}
+.inset {
+    border: thick solid #4caf50;
+    border-style: inset;
+    padding: 10px;
+}
+.outset {
+    border: thick solid #4caf50;
+    border-style: outset;
+    padding: 10px;
+}
